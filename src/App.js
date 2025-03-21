@@ -1,6 +1,7 @@
 import './App.css';
 import { Route,Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 import Buy from './components/buy';
 import Calculator from './components/calculator';
 import Findagent from './components/findagent';
@@ -12,6 +13,7 @@ function App() {
   return (
    <>
     <Navbar/>
+    
       <div>
     <Routes>        
       <Route path="/buy"  element={<Buy/>} />
@@ -22,6 +24,7 @@ function App() {
       <Route path="/sell"  element={<Sell/>}/>
     </Routes>
     </div>
+    <Footer/>
     </>
    
   );
