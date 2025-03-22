@@ -82,6 +82,16 @@ a{
   background-size: cover;
   position: relative;
 }
+.calculateImage{
+  display:flex;
+  align-items:flex-end;
+  background-image:url("./assets/calculateimage.png");
+  height:30vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .buyPageGradient{
   display:flex;
   align-items:flex-start;
@@ -173,6 +183,15 @@ a{
   text-align:center;
   border-radius:30px;
 }
+.purpleButton{
+  background-color:rgb(97, 67, 207);
+  color:white;
+  padding:15px;
+  margin-top:60px;
+  text-align:center;
+  border-radius:8px;
+}
+
 .contact{
   margin-left:20px;
 }
@@ -277,7 +296,31 @@ input{
 .realtor3{
   background-image:url("./assets/realtor3.png");
 }
+.calculate{
+  background-image:url("./assets/Calculate.png");
+}
+.cardImageC{
+  width:75vw;
+  height:47vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 .price{
   font-size:1.5em;
+}
+.formCard{
+  display:flex;
+  padding:50px;
+  padding-left:70px;
+}
+.calculateInput{
+  border:1px solid black;
+  border-radius:5px;
+}
+#calculateButton{
+  border-radius:5px;
+  height:40px;
 }
