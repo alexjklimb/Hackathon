@@ -13,7 +13,6 @@ function App() {
   return (
    <>
     <Navbar/>
-    
       <div>
     <Routes>        
       <Route path="/buy"  element={<Buy/>} />

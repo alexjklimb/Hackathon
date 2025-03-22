@@ -11,7 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.footer {
+  width: calc(100% -200px);
+  display: flex;
+  background-color: rgb(232, 232, 232);
+  color: rgb(49, 49, 49);
+  justify-content: space-around;
+  padding: 100px;
+}
 .navBar{
   display:flex;
   background-color:white;
@@ -45,6 +52,62 @@ a{
   background-size: cover;
   position: relative;
 }
+.heroimage2{
+  display:flex;
+  align-items:flex-end;
+  background-image:url("./assets/house1.png");
+  height:50vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.realtorimage{
+  display:flex;
+  align-items:flex-end;
+  background-image:url("./assets/realtorimage.png");
+  height:30vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.realtorgradient{
+  display:flex;
+  align-items:flex-start;
+  padding-left:20vw;
+  justify-content:center;
+  flex-direction:column;
+  background-image: linear-gradient(rgba(149, 149, 149, 0.3), rgba(149, 149, 149, 0.3));
+  height:30vw;
+  width:100vw;
+}
+.realtorsection{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background-color:rgb(246, 246, 246);
+  padding-bottom:100px;
+}
+.greenButton{
+  background-color:rgb(31, 190, 31);
+  color:white;
+  padding:15px;
+  margin-top:60px;
+  text-align:center;
+  border-radius:30px;
+}
+.contact{
+  margin-left:20px;
+}
+input{
+  height:30px;
+  outline:none;
+  border:none;
+  border-radius:30px;
+  padding-left:20px;
+}
 .herogradient{
   display:flex;
   align-items:center;
@@ -75,10 +138,45 @@ a{
   background-size: cover;
   position: relative;
 }
-.cardText{
+.cardImageR{
+  width:250px;
+  height:250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.realtorCard{
+  display:flex;
   background-color:rgb(255, 255, 255);
-  width:295px;
-  height:70px;
+  width:80vw;
+  margin-top:100px;
+}
+.realtorCardText{
+  display:flex;
+  width:calc(100% - 250px);
+  padding-left:20px;
+  padding-right:20px;
+  height:250px;
+}
+.cardText{
+  padding:5px;
+  background-color:rgb(255, 255, 255);
+  width:285px;
+  height:60px;
+}
+.search{
+  border-radius:20px;
+  background-image: linear-gradient(rgba(22, 232, 255, 1), rgba(25, 44, 253, 1));
+  color:white;
+  font-weight:600;
+  margin-top:20px;
+  height:40px;
+}
+.bottom{
+  display:flex;
+  justify-content:space-between;
+  margin-top:10px;
 }
 .homeCard{
   margin-right:30px;
@@ -94,4 +192,17 @@ a{
 }
 .image4{
   background-image:url("./assets/card4.png");
+}
+.realtor1{
+  background-image:url("./assets/realtor1.png");
+}
+.realtor2{
+  background-image:url("./assets/realtor2.png");
+}
+.realtor3{
+  background-image:url("./assets/realtor3.png");
+}
+
+.price{
+  font-size:1.5em;
 }

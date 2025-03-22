@@ -29,23 +29,91 @@ function Rent() {
             <div className="homeCard">
                 <div className="cardImage image2">
                     <div className="cardText">
+                    <div className="price">$8,000,000</div>
+                        <div className="bottom">
+                            <div className='info'>4 bed | 7 bath | 2,000 sqft</div>
+                            <div className='cardLink'>See more</div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="homeCard">
                 <div className="cardImage image3">
                     <div className="cardText">
+                    <div className="price">$8,000,000</div>
+                        <div className="bottom">
+                            <div className='info'>4 bed | 7 bath | 2,000 sqft</div>
+                            <div className='cardLink'>See more</div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="homeCard">
                 <div className="cardImage image4">
                     <div className="cardText">
+                    <div className="price">$8,000,000</div>
+                        <div className="bottom">
+                            <div className='info'>4 bed | 7 bath | 2,000 sqft</div>
+                            <div className='cardLink'>See more</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="homeCard">
+                <div className="cardImage image1">
+                    <div className="cardText">
+                        <div className="price">$8,000,000</div>
+                        <div className="bottom">
+                            <div className='info'>4 bed | 7 bath | 2,000 sqft</div>
+                            <div className='cardLink'>See more</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="homeCard">
+                <div className="cardImage image2">
+                    <div className="cardText">
+                    <div className="price">$8,000,000</div>
+                        <div className="bottom">
+                            <div className='info'>4 bed | 7 bath | 2,000 sqft</div>
+                            <div className='cardLink'>See more</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="homeCard">
+                <div className="cardImage image3">
+                    <div className="cardText">
+                    <div className="price">$8,000,000</div>
+                        <div className="bottom">
+                            <div className='info'>4 bed | 7 bath | 2,000 sqft</div>
+                            <div className='cardLink'>See more</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="homeCard">
+                <div className="cardImage image4">
+                    <div className="cardText">
+                    <div className="price">$8,000,000</div>
+                        <div className="bottom">
+                            <div className='info'>4 bed | 7 bath | 2,000 sqft</div>
+                            <div className='cardLink'>See more</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div className="hero">
+            <div className='heroimage2'>
+                <div className='herogradient'>
+                    <h2 className="white">Search for homes near you</h2>
+                    <div className='calculator navlink' id='calculateButton'>
+                        <Link to="/calculator">Search</Link>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     );
   }
